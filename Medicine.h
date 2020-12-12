@@ -15,10 +15,7 @@ public:
     int getYear();
     void setPrice(double price);
     double getPrice();
-
     void printInfo();
-
-
 private:
     int quantity;
     string name;
@@ -27,5 +24,4 @@ private:
     int month;
     int year;
     double price;
-
 };
