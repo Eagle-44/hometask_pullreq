@@ -16,6 +16,7 @@ public:
     void setPrice(double price);
     double getPrice();
     void printInfo();
+
 private:
     int quantity;
     string name;
