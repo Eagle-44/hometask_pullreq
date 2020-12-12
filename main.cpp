@@ -9,12 +9,10 @@ int main() {
     p.addMedicinetoarray(Medicine(50,"Hrupal",false,06,07,2023,4),3);
     p.addMedicinetoarray(Medicine(50,"Mipal-11",false,02,10,2022,32),4);
 
-
     p.Discounts();
     p.deleteMedicinetoarray(0);
     p.getLowerprieces();
     p.getMedicineFromMedicineArray(0).printInfo();
-
 
     return 0;
 }
