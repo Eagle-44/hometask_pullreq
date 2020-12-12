@@ -15,9 +15,11 @@ void Pharmacy::addMedicinetoarray(Medicine medicine,int number) {
         ArrOfMedic[number]=medicine;
     }
 }
+
 Medicine Pharmacy::getMedicineFromMedicineArray(int i) {
     return ArrOfMedic[i];
 }
+
 void Pharmacy::deleteMedicinetoarray(int i) {
 
     if(i <= LENGTH && i >= 0){
