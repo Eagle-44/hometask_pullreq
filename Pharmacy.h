@@ -10,10 +10,8 @@ public:
     void deleteMedicinetoarray(int i);
     void getLowerprieces();
     void Discounts();
+
 private:
     int LENGTH;
     Medicine* ArrOfMedic;
-
-
-
 };
